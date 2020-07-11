@@ -1,0 +1,127 @@
+* {
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+
+	
+	font-family: sans-serif;
+	
+}
+
+div.row {
+	
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/* 
+##################
+##################
+
+navigation
+
+##################
+##################
+*/
+nav {
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #2ecc71;
+	min-height: 50px;
+	padding: 0px 20px;
+	
+	
+}
+
+nav a {
+	
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 30px;
+	
+}
+
+nav a.last {
+	
+	margin-left: auto;
+}
+
+nav a.last img.menu {
+	height: 20px;
+}
+
+nav a img.logo {
+	height: 30px;
+}
+
+a.hide {
+	display: none;
+}
+
+@media screen and (min-width: 50em) {
+	a.hide {
+		display: inline-block;
+	}
+}
+
+
+
+
+
+
+
+
+footer {
+	
+	padding: 100px 0px;
+	background-color: #2c3e50;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p {
+	
+	font-size: 10px;
+	color: #95a5a6;
+}
+
+
+
+
+.about {
+	
+		background-image:linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("../images/banner.jpg");
+		height: 70vh;
+		background-size: cover;
+		background-position: center;
+		position: relative;
+		
+	
+}
+
+.about p {
+	
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+	color: white;
+	width: 40%;
+	line-height: 145%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+

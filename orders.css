@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title></title>
+		<link href="css/orders.css" type="text/css" rel="stylesheet" />
+	</head>
+	<body>
+	
+		<header>
+			
+			<nav>
+				<a href="#"><img class="logo" src="images/seeding.svg" alt="" /></a>
+				<a href="#" class="hide">Features</a>
+				<a href="#" class="hide">Login</a>
+				<a href="#" class="hide">Register</a>
+				<a href="#" class="hide">Contact Us</a>
+				<a href="#" class="hide">About Us</a>
+				<a class="last" href="#"><img class="menu" src="images/menu.svg" alt="" /></a>
+			</nav>
+			
+			<div class="banner">
+				
+				<div class="center">
+					<h1>Get Grocerries to you No need to go out!!!</h1>
+					<a href="#">Register Now!!!</a>
+				</div>
+				
+			</div>
+			
+		</header>
+		
+		
+
+		<main>
+		
+		</main>
+		
+		<footer>
+				<p>Get grocerries at your door.</p>
+		</footer>
+		
+	</body>
+	
+	
+</html>

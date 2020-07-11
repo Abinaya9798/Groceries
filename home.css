@@ -1,0 +1,321 @@
+* {
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+
+	
+	font-family: sans-serif;
+	
+}
+
+div.row {
+	
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/* 
+##################
+##################
+
+navigation
+
+##################
+##################
+*/
+nav {
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #2ecc71;
+	min-height: 50px;
+	padding: 0px 20px;
+	
+	
+}
+
+nav a {
+	
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 30px;
+	
+}
+
+nav a.last {
+	
+	margin-left: auto;
+}
+
+nav a.last img.menu {
+	height: 20px;
+}
+
+nav a img.logo {
+	height: 30px;
+}
+
+a.hide {
+	display: none;
+}
+
+@media screen and (min-width: 50em) {
+	a.hide {
+		display: inline-block;
+	}
+}
+
+
+
+
+
+
+/* 
+##################
+##################
+
+banner
+
+##################
+##################
+*/
+
+div.banner {
+	
+	
+	height: 80vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0,0,0,0.4) ),url(../images/banner.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+div.banner div.center {
+	
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	width: 100%;
+	padding: 0px 10%;
+}
+
+div.banner div.center h1 {
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+div.banner div.center a:link,
+div.banner div.center a:visited,
+input[type="submit"] {
+	
+	display: inline-block;
+	background-color: rgba(46, 204, 113,1.0);
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 40px;
+	margin-top: 20px;
+	font-weight: bold;
+	transition: 0.3s all;
+}
+
+div.banner div.center a:hover,
+div.banner div.center a:active {
+	
+	box-shadow: 0px 5px 5px #fff;
+	transform: translateY(-4px);
+	
+}
+
+@media screen and (min-width: 40em) {
+
+div.banner div.center h1 {
+	font-size: 40px;
+}
+
+div.banner div.center a:link,
+div.banner div.center a:visited {
+	padding: 15px 30px;
+	font-size: 20px;
+}
+
+}
+
+
+
+
+
+
+
+/* 
+##################
+##################
+
+features
+
+##################
+##################
+*/
+
+
+ section.section-feature {
+	
+	padding: 100px 0px;
+	
+}
+
+ section.section-feature h2,
+section.login h2 {
+	 
+	 text-align: center;
+	 font-size: 15px;
+	 font-weight: bold;
+	 color: #2c3e50;
+	 margin: 0 auto;
+	 margin-bottom: 50px;
+	 border-bottom: 6px solid #2ecc71;
+	 padding-bottom: 10px;
+	 
+	 width: 30%;
+ }
+
+ 
+@media screen and (min-width: 50em) {
+	 
+ section.section-feature h2,
+section.login h2 {
+		font-size: 26px;
+}
+
+ }
+
+section.section-feature .feature {
+	
+	text-align: center;
+	margin-bottom: 20px;
+
+} 
+
+section.section-feature .feature img {
+	
+	width: 50px;
+	margin-bottom: 20px;
+	
+}
+
+
+section.section-feature .feature h3 {
+	
+	margin-bottom: 15px;
+	color: #34495e;
+	
+}
+section.section-feature .feature p {
+	
+	color: #34495e;
+	text-align: center;
+	line-height: 145%;
+}
+
+@media screen and (min-width: 70rem) {
+
+section.section-feature .row {
+	
+	
+	display: flex;
+	flex-direction: row;
+	
+}
+
+
+section.section-feature .feature {
+	
+	margin: 0px;
+	margin-right: 50px;
+
+} 
+section.section-feature .feature:last-child {
+	margin-right: 0px;
+}
+
+
+
+section.section-feature .feature p {
+	
+	text-align: center;
+}
+
+}
+
+
+
+
+
+
+/* 
+##################
+##################
+
+login
+
+##################
+##################
+*/
+
+section.login {
+	padding: 100px 0px;
+	background-color: rgba(0, 0, 0, 0.06);
+	
+}
+
+form.form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+from.form td {
+	
+	font-size: 20px;
+	
+}
+
+
+form.form input[type="text"],
+form.form input[type="password"],
+form.form input[type="email"],
+form.form input[type="date"]   {
+	font-size: 20px;
+	width: 100%;
+}
+
+
+
+footer {
+	
+	padding: 100px 0px;
+	background-color: #2c3e50;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p {
+	
+	font-size: 10px;
+	color: #95a5a6;
+}

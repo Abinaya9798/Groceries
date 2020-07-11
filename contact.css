@@ -1,0 +1,174 @@
+* {
+
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+body {
+
+	
+	font-family: sans-serif;
+	
+}
+
+div.row {
+	
+	width: 90%;
+	margin: 0 auto;
+}
+
+
+/* 
+##################
+##################
+
+navigation
+
+##################
+##################
+*/
+nav {
+	
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	background-color: #2ecc71;
+	min-height: 50px;
+	padding: 0px 20px;
+	
+	
+}
+
+nav a {
+	
+	color: white;
+	font-weight: bold;
+	text-decoration: none;
+	display: inline-block;
+	padding: 0px;
+	margin: 0px;
+	margin-right: 30px;
+	
+}
+
+nav a.last {
+	
+	margin-left: auto;
+}
+
+nav a.last img.menu {
+	height: 20px;
+}
+
+nav a img.logo {
+	height: 30px;
+}
+
+a.hide {
+	display: none;
+}
+
+@media screen and (min-width: 50em) {
+	a.hide {
+		display: inline-block;
+	}
+}
+
+
+
+
+
+
+ section.section-feature h2,
+section.login h2 {
+	 
+	 text-align: center;
+	 font-size: 15px;
+	 font-weight: bold;
+	 color: #2c3e50;
+	 margin: 0 auto;
+	 margin-bottom: 50px;
+	 border-bottom: 6px solid #2ecc71;
+	 padding-bottom: 10px;
+	 
+	 width: 30%;
+ }
+
+ 
+@media screen and (min-width: 50em) {
+	 
+ section.section-feature h2,
+section.login h2 {
+		font-size: 26px;
+}
+
+ }
+
+
+/* 
+##################
+##################
+
+login
+
+##################
+##################
+*/
+
+section.login {
+	padding: 100px 0px;
+	background-color: rgba(0, 0, 0, 0.06);
+	
+}
+
+form.form {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+from.form td {
+	
+	font-size: 20px;
+	
+}
+
+
+form.form input[type="text"],
+form.form input[type="password"],
+form.form input[type="email"],
+form.form input[type="date"]   {
+	font-size: 20px;
+	width: 100%;
+}
+
+
+footer {
+	
+	padding: 100px 0px;
+	background-color: #2c3e50;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+footer p {
+	
+	font-size: 10px;
+	color: #95a5a6;
+}
+
+
+input[type="submit"] {
+	
+	display: inline-block;
+	background-color: rgba(46, 204, 113,1.0);
+	color: white;
+	text-decoration: none;
+	padding: 10px 30px;
+	border-radius: 40px;
+	margin-top: 20px;
+	font-weight: bold;
+	transition: 0.3s all;
+}
